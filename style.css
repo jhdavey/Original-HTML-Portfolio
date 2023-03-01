@@ -28,7 +28,7 @@ nav {
 
 body {
     margin: 10px;
-    background-image: url(/images/japanblock.png);
+    background-image: url(images/japanblock.png);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
