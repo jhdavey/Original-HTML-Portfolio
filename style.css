@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "roboto";
+    src: url(/webfontkit-20230226-150730/roboto-regular.woff);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    justify-content: right;
+    margin-top: 30px;
+}
+
+.link {
+    font-family: 'roboto', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.link:hover {
+    text-decoration: underline #00ffff 2px;
+}
+
+body {
+    margin: 10px;
+    background-image: url(/images/japanblock.png);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 30px #00ffff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 36px;
+    justify-content: left;
+    color: white;
+    text-decoration: underline #00ffff 2px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: 'roboto', Arial, sans-serif;
+    text-decoration: underline #00ffff 2px;
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: 'roboto', Arial, sans-serif;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#signoff {
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 0px 10px #00ffff;
+}
+
+#about, #port, #contact {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    border-left: solid 3px white;
+    border-radius: 10px;
+}
+
+.pics {
+    width: 200px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+#quote {
+    font-style: italic;
+    margin-top: 0px;
+}
+
+#portinfo {
+    width: 60%;
+    margin-left: 30px;
+}
+
+ul {
+    color: white;
+}
+
+/*CONTACT FORM START*/
+
+#contactinfo {
+    margin: 30px;
+    width: 25%;
+    font-family: 'roboto', Arial, sans-serif;
+
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+}
+
+label {
+    font-family: 'roboto', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+    font-family: 'roboto', Arial, sans-serif;
+}
+
+textarea {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'roboto', Arial, sans-serif;
+  }
+
+  input[type=submit] {
+    font-family: 'roboto', Arial, sans-serif;
+    background-color: white;
+    opacity: 80%;
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #00ffff;
+    opacity: 50%;
+  }
+
+/*CONTACT FORM END*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0px;
+}
