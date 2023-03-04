@@ -13,8 +13,10 @@
 
 <header>
 
-    <h2>Hey, I'm Harley!</h2>
+    <h1>&#128075; Hey, I'm Harley!</h1>
     
+<!--Navigation links to sections on page-->
+
     <nav>
         <a class="link" href="#about" alt="About">About</a>
         <a class="link" href="#port" alt="Portfolio">Portfolio</a>
@@ -22,28 +24,26 @@
     </nav>
     
 </header>
-      
-<h1>Full-Stack Web Developer</h1>
 
 <section id="intro">
-    <p>Welcome to my portfolio! As a full-stack developer, I strive to improve my understanding and abilities every day so that I can deliver the best experience possible for my clients. Take a look around, get to know me, checkout some of my favorite projects, and shoot me a message if you're interested in working together! <span id="signoff">-H</span>
+    <p>Welcome to my portfolio! As a full-stack developer, I strive to improve my understanding and abilities every day so that I can deliver the best experience possible for my clients. Take a look around, get to know me, checkout some of my favorite projects, and shoot me a message if you're interested in working together!
     </p>
 </section>
 
 <article id="about">
 
-    <h3>About Me</h3>
+    <h2>About Me</h2>
 
     <img class="pics" src="images/weddingpic_edited.png" title="My wife and I at our wedding in Grand Cayman"
     alt="Picture of my wife and I at our wedding in Grand Cayman">
 
     <ul>
         <li>
-            <p>I love to spend my time designing and development web apps. You'll find some of my favorite projects below!
+            <p>I love to spend my time designing and developing web apps. You'll find some of my favorite projects below!
             </p>
         </li>
         <li>
-            <p>When I'm not working on Quickease, or web development projects, I'm spending time with my amazing wife, Lauren. We love to travel!
+            <p>When I'm not working on my business, Quickease or web development projects, I'm spending time with my amazing wife, Lauren. We love to go to the gym, spend time on the boat, and travel!
             </p>
         </li>
         <li>
@@ -56,48 +56,67 @@
 
 <article id="port">
 
-    <h3>Portfolio</h3>
+    <h2>Portfolio</h2>
 
-    <a href="https://jhdavey.github.io/horiseonrefactor/">
-        <img class="pics" src="images/horiseonscreenshot.png" title=""Horiseon Screenshot" alt="Simple webpage for Horiseon refactored for accessibility and SEO">
-    </a>
+<!--Portfolio section displayed as grid-->
 
-    <p id="portinfo">My first project was to refactor a webpage for a digital marketing company, Horiseon. The client requested that the webpage be updated to improve accessibility and SEO rankings.
-        </p>
+    <div id="portfoliogrid">
+
+<!--Each section displayed with image set to background-->
+
+        <a id="portfoliofeature" href="https://jhdavey.github.io/horiseonrefactor/" alt="Link to Deployed Horiseon Web App">
+            <div class="featinfo">
+                <p>Refactored for Accessibility<br />HTML & CSS</p>
+            </div>
+        </a>
+
+        <div class="sub1">
+            <div class="subinfo">
+                <p>Example Fill<br />HTML & CSS</p>
+            </div>
+        </div>
+
+        <div class="sub2">
+            <div class="subinfo">
+                <p>Example Fill<br />PHOTOSHOP</p>
+            </div>
+        </div>
+
+        <div class="sub3">
+            <div class="subinfo">
+                <p>Example Fill<br />JAVASCRIPT</p>
+            </div>
+        </div>
+
+        <div class="sub4">
+            <div class="subinfo">
+                <p>Example Fill<br />MAGIC</p>
+            </div>
+        </div>
+
+    </div>
+
 
 </article>
 
 <article id="contact">
 
-    <h3>Contact</h3>
+    <h2>Contact</h2>
 
-    <p id="contactinfo">If you'd like to contact me, please fill out this form and it will get forwarded directly to my inbox!</p>
+    <div id="contactcontainer">
 
-    <!--Contact form start-->
-    <form class="contactform" action="action_page.php">
-
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="First Name">
+        <p>If you have any questions or would like to connect, shoot me an email: <a class="contactlinks" href="mailto:@quickeasewash.com" alt="Email Harley"> jhdavey5182@gmail.com</a> or find me on LinkedIn: <a class="contactlinks" href="https://www.linkedin.com/in/harley-davey-16265a241/" alt="My LinkedIn Profile">LinkedIn</a> 
+        </p>
         
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Last Name">
-        
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="What's up?" style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit">
-        
-    </form>
-    <!--Contact form end - sourced from: -->
-
 </article>
 
 <footer>
 
-    <p id="quote">"Life's simple: you make choices and you don't look back."
+    <p id="quote">"Life's simple; you make choices and you don't look back."
     </p>
 
     <h4>&copy; HD Web Development 2023</h4>
+
 </footer>
 
 </body>

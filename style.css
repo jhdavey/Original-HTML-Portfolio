@@ -3,11 +3,13 @@
     src: url(/webfontkit-20230226-150730/roboto-regular.woff);
 }
 
+/*Header Section*/
 header {
     display: flex;
     justify-content: space-between;
 }
 
+/*Navigation links*/
 nav {
     justify-content: right;
     margin-top: 30px;
@@ -19,44 +21,43 @@ nav {
     font-size: 24px;
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
+    padding: 3px;
+    transition: all 0.5s ease-in-out;
 }
 
 .link:hover {
-    text-decoration: underline #00ffff 2px;
+    border-left: none;
+    border-right: none;
+    border: solid 4px #00ffff;
+    border-radius: 3px;
 }
 
+/*Main body and text settings*/
+
 body {
-    margin: 10px;
-    background-image: url(images/japanblock.png);
+    margin: 2%;
+    background-image: url(images/webdevback.png);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
+    cursor: crosshair;
 }
 
 h1 {
     font-family: 'roboto', Arial, sans-serif;
     font-size: 60px;
-    text-align: center;
     color: white;
-    text-shadow: 0px 0px 30px #00ffff;
-    margin-bottom: 10px;
+    text-shadow: 0px 0px 2px #00ffff;
+    margin: 0px;
 }
 
 h2 {
     font-family: 'roboto', Arial, sans-serif;
-    font-size: 36px;
-    justify-content: left;
-    color: white;
-    text-decoration: underline #00ffff 2px;
-    margin-left: 20px;
-}
-
-h3 {
-    font-family: 'roboto', Arial, sans-serif;
-    text-decoration: underline #00ffff 2px;
     font-size: 24px;
     color: white;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 p {
@@ -64,108 +65,132 @@ p {
     font-family: 'roboto', Arial, sans-serif;
 }
 
+/*Intro paragraph under title*/
 #intro {
     display: flex;
     justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     line-height: 1.5;
+    width: 950px;
 }
 
-#signoff {
-    font-family: 'roboto', Arial, sans-serif;
-    font-size: 18px;
-    color: white;
-    text-shadow: 0px 0px 10px #00ffff;
-}
-
+/*About Me, Portfolio, and Contact Sections*/
 #about, #port, #contact {
-    width: 100%;
     display:flex;
-    flex-wrap: wrap;
-    margin: 30px;
-    padding: 20px;
+    margin-bottom: 30px;
     align-items: center;
-    border-left: solid 3px white;
+    border-left: solid 3px whitesmoke;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
 }
+
+#about:hover, #port:hover, #contact:hover {
+    border-color: #00ffff;
+}
+
+/*About Me Section*/
 
 .pics {
-    width: 200px;
-    margin: 10px;
-    border-radius: 50px;
+    width: 250px;
 }
 
+li {
+    color: white;
+    width: 80%;
+}
+
+/*Portfolio Section*/
+
+#portfoliogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 950px;
+}
+
+#portfoliofeature {
+    background-image: url(images/horiseonwide.png);
+    background-size: cover;
+    grid-column: 1/3;
+    border: solid 3px white;
+    margin: 5px;
+    width: 950px;
+    height: 425px;
+    position: relative;
+  }
+
+  .featinfo {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: solid 3px white;
+    background-color: #00ffff;
+    opacity: .85;
+}
+
+.featinfo > p {
+    font-family: 'roboto', Arial, sans-serif;
+    color: darkblue;
+    margin: 5px;
+}
+
+.sub1, .sub2, .sub3, .sub4 {
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    border:solid 3px white;
+    height: 125px;
+    margin: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.sub1 {
+    background-image: url(images/examplefill1.png);
+  }
+
+  .sub2 {
+    background-image: url(images/examplefill2.png);
+  }
+
+  .sub3 {
+    background-image: url(images/examplefill3.png);
+  }
+
+  .sub4 {
+    background-image: url(images/examplefill4.png);
+  }
+
+  .subinfo {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: solid 3px white;
+    background-color: #00ffff;
+    opacity: .85;
+}
+
+.subinfo > p {
+    font-family: 'roboto', Arial, sans-serif;
+    color: black;
+    font-size: 12px;
+    margin: 2px;
+}
+
+/*Contact Section*/
+
+.contactlinks {
+     color: #00ffff;
+}
+
+/*Footer Section*/
 #quote {
     font-style: italic;
     margin-top: 0px;
+    color: #00ffff;
 }
-
-#portinfo {
-    width: 60%;
-    margin-left: 30px;
-}
-
-ul {
-    color: white;
-}
-
-/*CONTACT FORM START*/
-
-#contactinfo {
-    margin: 30px;
-    width: 25%;
-    font-family: 'roboto', Arial, sans-serif;
-
-}
-
-.contactform {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding: 20px;
-}
-
-label {
-    font-family: 'roboto', Arial, sans-serif;
-    color: white;
-    padding: 10px;
-}
-
-input {
-    width: 300px;
-    padding: 5px;
-    font-family: 'roboto', Arial, sans-serif;
-}
-
-textarea {
-    width: 70%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: 'roboto', Arial, sans-serif;
-  }
-
-  input[type=submit] {
-    font-family: 'roboto', Arial, sans-serif;
-    background-color: white;
-    opacity: 80%;
-    color: black;
-    margin-top: 10px;
-    padding: 10px;
-    width: 20%;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #00ffff;
-    opacity: 50%;
-  }
-
-/*CONTACT FORM END*/
 
 footer {
     width: 100%;
@@ -174,3 +199,52 @@ footer {
     position: relative;
     bottom: 0px;
 }
+
+/*Responsive styles for smaller screen- 768px*/
+@media only screen and (max-width: 768px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    h1 {text-align: center;}
+
+    #intro {
+        width: 100%;
+    }
+
+    #about, #contact {
+        flex-wrap: wrap;
+    }
+
+    #contact > h2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contactcontainer > p {
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    #portfoliogrid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #portfoliofeature {
+        width: 100%;
+    }
+
+    .sub1, .sub2, .sub3, .sub4 {
+        display: block;
+        width: 100%;
+    }
+
+
+  }
