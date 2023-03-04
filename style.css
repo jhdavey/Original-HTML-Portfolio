@@ -255,7 +255,8 @@ footer {
         margin-right: auto;
     }
 
-    #about, #contact, #portfoliogrid {
-        display: block;
+    h2 {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
