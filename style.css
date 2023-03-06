@@ -164,6 +164,10 @@ li {
     background-image: url(images/examplefill4.png);
   }
 
+  .sub1:hover, .sub2:hover, .sub3:hover, .sub4:hover {
+    border-color: #00ffff;
+  }
+
   /*Smaller portfolio information blocks*/
   .subinfo {
     position: absolute;
