@@ -9,6 +9,11 @@ header {
     justify-content: space-between;
 }
 
+#emoji:hover {
+    -webkit-transform: rotate(-10deg);
+    display: inline-block;
+}
+
 /*Navigation links*/
 nav {
     justify-content: right;
