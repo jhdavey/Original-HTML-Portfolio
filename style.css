@@ -164,7 +164,7 @@ li {
     background-image: url(images/examplefill4.png);
   }
 
-  #portfoliofeature, .sub1:hover, .sub2:hover, .sub3:hover, .sub4:hover {
+  #portfoliofeature:hover, .sub1:hover, .sub2:hover, .sub3:hover, .sub4:hover {
     border-color: #00ffff;
   }
 
