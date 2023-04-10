@@ -4,6 +4,10 @@
 }
 
 /*Header Section*/
+#header-container {
+    background-image: url(images/astronaut_faded_2.png);
+    min-height: 950px;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -26,6 +30,7 @@ nav {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    text-shadow: 2px 2px 2px black;
     margin: 10px;
     padding: 3px;
     transition: all 0.5s ease-in-out;
@@ -34,7 +39,7 @@ nav {
 .link:hover {
     border-left: none;
     border-right: none;
-    border: solid 4px #00ffff;
+    border-bottom: solid 4px #00ffff;
     border-radius: 3px;
 }
 
@@ -42,7 +47,9 @@ nav {
 
 body {
     margin: 2%;
-    background-image: url(images/webdevback.png);
+    /* TAKE OUT FOR NOW
+    background-image: url(images/webdevback.png);*/
+    background-color: black;
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -63,6 +70,15 @@ h2 {
     color: white;
     margin-right: 50px;
     margin-left: 50px;
+}
+
+h3 {
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
 }
 
 p {
