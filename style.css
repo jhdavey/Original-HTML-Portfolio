@@ -6,11 +6,16 @@
 /*Header Section*/
 #header-container {
     background-image: url(images/astronaut_faded_2.png);
+    background-size: cover;
     min-height: 950px;
 }
 header {
     display: flex;
     justify-content: space-between;
+}
+
+#body-container {
+    background-image: url(images/stars_background.jpg);
 }
 
 #emoji:hover {
