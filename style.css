@@ -5,17 +5,13 @@
 
 /*Header Section*/
 #header-container {
-    background-image: url(images/astronaut_faded_2.png);
+    background-image: url(images/astronaut_faded_3.png);
     background-size: cover;
     min-height: 950px;
 }
 header {
     display: flex;
     justify-content: space-between;
-}
-
-#body-container {
-    background-image: url(images/stars_background.jpg);
 }
 
 #emoji:hover {
@@ -29,7 +25,7 @@ nav {
     margin-top: 30px;
 }
 
-.link {
+.navlink {
     font-family: 'roboto', Arial, sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -41,7 +37,8 @@ nav {
     transition: all 0.5s ease-in-out;
 }
 
-.link:hover {
+.navlink:hover {
+    color: white;
     border-left: none;
     border-right: none;
     border-bottom: solid 4px #00ffff;
@@ -51,13 +48,8 @@ nav {
 /*Main body and text settings*/
 
 body {
-    margin: 2%;
-    /* TAKE OUT FOR NOW
-    background-image: url(images/webdevback.png);*/
+    background-image: url(images/stars_background_faded.png);
     background-color: black;
-    background-size: cover;
-    background-position: center;
-    overflow-x: hidden;
     cursor: crosshair;
 }
 
@@ -65,14 +57,14 @@ h1 {
     font-family: 'roboto', Arial, sans-serif;
     font-size: 60px;
     color: white;
-    text-shadow: 0px 0px 2px #00ffff;
+    text-shadow: 0px 0px 2px black;
     margin: 0px;
 }
 
 h2 {
     font-family: 'roboto', Arial, sans-serif;
     font-size: 24px;
-    color: white;
+    color: steelblue;
     margin-right: 50px;
     margin-left: 50px;
 }
@@ -80,14 +72,19 @@ h2 {
 h3 {
     font-family: 'roboto', Arial, sans-serif;
     font-size: 24px;
-    color: white;
+    color: steelblue;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0px;
 }
 
+h4 {
+    text-shadow: 1px 1px 1px black;
+
+}
+
 p {
-    color: white;
+    color: steelblue;
     font-family: 'roboto', Arial, sans-serif;
 }
 
@@ -101,16 +98,21 @@ p {
     text-align: center;
     line-height: 1.5;
     width: 950px;
+    text-shadow: 2px 2px 2px black
+}
+
+.modal {
+    opacity:0.9 !important;
+}
+.modal-body {
+    padding: 20px;
 }
 
 /*About Me, Portfolio, and Contact Sections*/
 #about, #port, #contact {
     display:flex;
-    margin-bottom: 30px;
     align-items: center;
-    border-left: solid 3px whitesmoke;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+    justify-content: center;
 }
 
 #about:hover, #port:hover, #contact:hover {
@@ -190,7 +192,7 @@ li {
   }
 
   #portfoliofeature:hover, .sub1:hover, .sub2:hover, .sub3:hover, .sub4:hover {
-    border-color: #00ffff;
+    border-color: steelblue;
   }
 
   /*Smaller portfolio information blocks*/
@@ -199,7 +201,7 @@ li {
     left: 0px;
     bottom: 0px;
     border: solid 3px white;
-    background-color: #00ffff;
+    background-color: steelblue;
     opacity: .85;
 }
 
@@ -213,22 +215,28 @@ li {
 /*Contact Section*/
 
 .contactlinks {
-     color: #00ffff;
+     color: steelblue;
 }
 
 /*Footer Section*/
 #quote {
     font-style: italic;
-    margin-top: 0px;
-    color: #00ffff;
+    font-weight: bold;
+    color: steelblue;
+    text-align: center;
+    margin: 30px;
 }
 
 footer {
     width: 100%;
-    text-align: center;
+    height: 100px;
     color: white;
     position: relative;
     bottom: 0px;
+    background-image: url(images/moon_surface_edit.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Responsive styles for smaller screens (768px)*/
