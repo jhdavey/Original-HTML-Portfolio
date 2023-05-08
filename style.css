@@ -50,17 +50,17 @@ body {
 
 h1 {
     font-family: 'roboto', Arial, sans-serif;
-    font-size: 90px;
+    font-size:72px;
     color: white;
-    text-shadow: 2px 2px 2px steelblue;
+    text-shadow: 1px 1px 1px steelblue;
     margin: 10px 0px 0px 10px;
 }
 
 h2 {
     font-family: 'roboto', Arial, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
-    text-shadow: 2px 2px 2px steelblue;
+    text-shadow: 1px 1px 1px steelblue;
     text-align: center;
 }
 
@@ -68,8 +68,8 @@ h3 {
     font-family: 'roboto', Arial, sans-serif;
     font-size: 24px;
     color: steelblue;
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 80%;
+    text-align: center;
 }
 
 h4 {
@@ -84,6 +84,10 @@ p {
     font-family: 'roboto', Arial, sans-serif;
 }
 
+#about > p {
+    margin: 0px 10px 0px 0px;
+}
+
 #body-container {
     height: 80vh;
     text-align: center;
@@ -96,7 +100,7 @@ p {
     opacity:0.9 !important;
 }
 .modal-body {
-    padding: 20px;
+    padding: 10px;
 }
 
 /*About Me, Portfolio, and Contact Sections*/
@@ -118,10 +122,6 @@ p {
 
 #slashes {
     color: #00ffff;
-}
-
-li {
-    color: white;
 }
 
 /*Portfolio Section*/
@@ -217,7 +217,7 @@ li {
     font-style: italic;
     font-weight: bold;
     color: #fff;
-    text-shadow: 2px 2px 2px steelblue;
+    text-shadow: 1px 1px 1px steelblue;
     text-align: center;
 }
 
