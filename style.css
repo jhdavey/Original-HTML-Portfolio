@@ -10,7 +10,7 @@ header {
 }
 
 #emoji:hover {
-    -webkit-transform: rotate(-10deg);
+    -webkit-transform: rotate(15deg);
     display: inline-block;
 }
 
