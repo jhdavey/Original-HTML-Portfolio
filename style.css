@@ -52,7 +52,6 @@ h1 {
     font-family: 'roboto', Arial, sans-serif;
     font-size:72px;
     color: white;
-    text-shadow: 1px 1px 1px steelblue;
     margin: 10px 0px 0px 10px;
 }
 
@@ -60,7 +59,6 @@ h2 {
     font-family: 'roboto', Arial, sans-serif;
     font-size: 50px;
     color: white;
-    text-shadow: 1px 1px 1px steelblue;
     text-align: center;
 }
 
@@ -212,6 +210,10 @@ p {
      color: steelblue;
 }
 
+#techstack {
+    margin-top: 20px;
+}
+
 /*Footer Section*/
 #quote {
     font-style: italic;
@@ -228,7 +230,6 @@ footer {
     bottom: 0px;
     text-align: center;
 }
-
 
 /*Responsive style for smaller screens (950)*/
 @media only screen and (max-width: 950px) {
