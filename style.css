@@ -40,8 +40,8 @@ nav {
     color: white;
     border-left: none;
     border-right: none;
-    border-bottom: solid 4px var(--main-color);
-    border-radius: 3px;
+    border-bottom: solid 2px var(--main-color);
+    border-top: solid 2px var(--main-color);
 }
 
 /*Main body and text settings*/
@@ -55,14 +55,14 @@ body {
 
 h1 {
     font-family: "roboto", arial, sans-serif;
-    font-size:72px;
+    font-size: 80px;
     color: white;
     margin: 10px 0px 0px 10px;
 }
 
 h2 {
     font-family: "roboto", arial, sans-serif;
-    font-size: 50px;
+    font-size: 72px;
     color: white;
     text-align: center;
 }
@@ -92,7 +92,7 @@ p {
 }
 
 #body-container {
-    height: 80vh;
+    height: 90vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -211,8 +211,25 @@ p {
      color: var(--main-color);
 }
 
-#techstack {
+.techstack {
     margin-top: 20px;
+}
+.techstack:hover {
+    padding: 2px;
+    border-bottom: solid 2px var(--main-color);
+    border-top: solid 2px var(--main-color);
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-left: solid 1px var(--main-color);
+}
+#intro > p {
+    color: white;
+    font-size: 18px;
+    width: 50%;
 }
 
 /*Footer Section*/
