@@ -51,18 +51,19 @@ body {
     background-image: url(images/portfolio_background_4.gif);
     cursor: crosshair;
     background-size: cover;
+    overflow: hidden;
 }
 
 h1 {
     font-family: "roboto", arial, sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     color: white;
     margin: 10px 0px 0px 10px;
 }
 
 h2 {
     font-family: "roboto", arial, sans-serif;
-    font-size: 72px;
+    font-size: 48px;
     color: white;
     text-align: center;
 }
