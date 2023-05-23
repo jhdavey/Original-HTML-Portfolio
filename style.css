@@ -213,6 +213,7 @@ p {
 }
 
 .techstack {
+    height: 50px;
     margin-top: 20px;
 }
 .techstack:hover {
