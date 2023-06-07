@@ -131,7 +131,7 @@ p {
 }
 
 #portfoliofeature {
-    background-image: url(images/schem_example1.png);
+    background-image: url(images/scriptscout_screenshot.png);
     background-size: cover;
     grid-column: 1/3;
     border: solid 3px var(--main-color);
@@ -169,19 +169,19 @@ p {
 }
 
 .sub1 {
-    background-image: url(images/findandstreamscreenshot.png);
+    background-image: url(images/schem_example1.png);
   }
 
 .sub2 {
-    background-image: url(images/horiseonscreenshot.png);
+    background-image: url(images/findandstreamscreenshot.png);
   }
 
 .sub3 {
-    background-image: url(images/examplefill3.png);
+    background-image: url(images/horiseonscreenshot.png);
   }
 
 .sub4 {
-    background-image: url(images/examplefill4.png);
+    background-image: url(images/portfolioscreenshot.png);
   }
 
   #portfoliofeature:hover, .sub1:hover, .sub2:hover, .sub3:hover, .sub4:hover {
